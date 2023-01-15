@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.303eb0ae.css",
-    "main.js": "/My-Portfolio/static/js/main.61f1666e.js",
-    "static/js/787.1f11dfe9.chunk.js": "/My-Portfolio/static/js/787.1f11dfe9.chunk.js",
-    "static/media/location-pin.png": "/My-Portfolio/static/media/location-pin.e0a155ee5083b455b226.png",
-    "static/media/sunny-side.jpg": "/My-Portfolio/static/media/sunny-side.f676005a14ca4aec61a0.jpg",
-    "static/media/E-commerce.jpg": "/My-Portfolio/static/media/E-commerce.16eb19a210a6e752c89b.jpg",
-    "static/media/fylo-dark-theme.jpg": "/My-Portfolio/static/media/fylo-dark-theme.8fffd77f4847c168b296.jpg",
-    "static/media/profile-card.jpg": "/My-Portfolio/static/media/profile-card.3335b1f8606ea441b14b.jpg",
-    "static/media/map.svg": "/My-Portfolio/static/media/map.b578048c542a6bef74d99e4b56b21781.svg",
-    "index.html": "/My-Portfolio/index.html",
-    "main.303eb0ae.css.map": "/My-Portfolio/static/css/main.303eb0ae.css.map",
-    "main.61f1666e.js.map": "/My-Portfolio/static/js/main.61f1666e.js.map",
-    "787.1f11dfe9.chunk.js.map": "/My-Portfolio/static/js/787.1f11dfe9.chunk.js.map"
+    "main.css": "/home/static/css/main.303eb0ae.css",
+    "main.js": "/home/static/js/main.2230cd26.js",
+    "static/js/787.1f11dfe9.chunk.js": "/home/static/js/787.1f11dfe9.chunk.js",
+    "static/media/location-pin.png": "/home/static/media/location-pin.e0a155ee5083b455b226.png",
+    "static/media/sunny-side.jpg": "/home/static/media/sunny-side.f676005a14ca4aec61a0.jpg",
+    "static/media/E-commerce.jpg": "/home/static/media/E-commerce.16eb19a210a6e752c89b.jpg",
+    "static/media/fylo-dark-theme.jpg": "/home/static/media/fylo-dark-theme.8fffd77f4847c168b296.jpg",
+    "static/media/profile-card.jpg": "/home/static/media/profile-card.3335b1f8606ea441b14b.jpg",
+    "static/media/map.svg": "/home/static/media/map.b578048c542a6bef74d99e4b56b21781.svg",
+    "index.html": "/home/index.html",
+    "main.303eb0ae.css.map": "/home/static/css/main.303eb0ae.css.map",
+    "main.2230cd26.js.map": "/home/static/js/main.2230cd26.js.map",
+    "787.1f11dfe9.chunk.js.map": "/home/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.303eb0ae.css",
-    "static/js/main.61f1666e.js"
+    "static/js/main.2230cd26.js"
   ]
 }
