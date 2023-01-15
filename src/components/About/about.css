@@ -71,7 +71,7 @@ p::after {
 .about-page .text-zone p::after {
 	content: "</p>";
 	right: 20px;
-	bottom: -10px;
+	bottom: -20px;
 }
 @keyframes appear {
 	from {
@@ -199,9 +199,8 @@ p::after {
 		position: absolute;
 	}
 	.cube-spiner {
-		transform-origin:  100px 100px 0;
+		transform-origin: 100px 100px 0;
 		margin-left: calc(50% - 100px);
-		
 	}
 }
 @media (min-width: 1200px) {

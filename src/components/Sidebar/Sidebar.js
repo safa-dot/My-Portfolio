@@ -19,7 +19,7 @@ function Sidebar() {
                 <nav className='container fluid'>
 
                     <row className=" pages row">
-                        <NavLink exact='true' activeclassname='active ' className='home-link' to='/'>
+                        <NavLink exact='true' activeclassname='active ' className='home-link ' to='/'>
                             <FontAwesomeIcon icon={faHome} color='#4d4d4e' size="3x" />
                             <span className='hidden'>HOME</span>
                         </NavLink>

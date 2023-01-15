@@ -26,12 +26,24 @@
 .swiper-3d .swiper-slide-shadow-right {
 	background-image: none;
 }
+.swiper-pagination{
+	opacity: 0;
+}
+.swiper-pagination-bullet{
+	background-color: #794028;
+}
 
 @media (max-width: 576px) {
 	.swiper {
 		width: 79%;
 		margin-left: 19%;
+		
 	}
+	.swiper-pagination{
+		opacity: 1;
+		
+	}
+
 }
 @media (min-width: 576px) {
 	.swiper {

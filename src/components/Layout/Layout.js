@@ -9,7 +9,7 @@ function Layout(props) {
     return (
         <>
             <Sidebar />
-            <main  >
+            <main>
                 {props.children}
             </main>
         </>

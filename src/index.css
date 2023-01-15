@@ -5,6 +5,7 @@
 html {
 	font-size: 62.5%;
 	
+	
 }
 body {
 	margin: 0;
@@ -12,6 +13,7 @@ body {
 	background: #fbeee0 !important;
 	overflow-x: hidden;
 	display: block;
+	
 }
 h1{
 	font-family: 'Courier Prime', monospace;

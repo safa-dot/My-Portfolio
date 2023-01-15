@@ -12,14 +12,17 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-    </Layout>
+    <>
+      <Layout >
+        <Routes>
+          <Route index exact path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+          
+        </Routes>
+      </Layout>
+    </>
   );
 
 }

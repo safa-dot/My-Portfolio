@@ -83,12 +83,16 @@
 }
 
 @media (max-width: 576px) {
+
 	.contact-container {
 		position: fixed;
 		
 	}
 	.contact-container .text-zone {
 		padding: 0 20px 0 80px;
+	}
+	.contact-container .text-zone h1{
+		font-size: 40px;
 	}
 	.contact-btn {
 		min-width: 120px;
