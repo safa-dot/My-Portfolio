@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.303eb0ae.css",
-    "main.js": "/My-Portfolio/static/js/main.2209ba76.js",
+    "main.js": "/My-Portfolio/static/js/main.e6aa9295.js",
     "static/js/787.1f11dfe9.chunk.js": "/My-Portfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/location-pin.png": "/My-Portfolio/static/media/location-pin.e0a155ee5083b455b226.png",
     "static/media/sunny-side.jpg": "/My-Portfolio/static/media/sunny-side.f676005a14ca4aec61a0.jpg",
@@ -11,11 +11,11 @@
     "static/media/map.svg": "/My-Portfolio/static/media/map.b578048c542a6bef74d99e4b56b21781.svg",
     "index.html": "/My-Portfolio/index.html",
     "main.303eb0ae.css.map": "/My-Portfolio/static/css/main.303eb0ae.css.map",
-    "main.2209ba76.js.map": "/My-Portfolio/static/js/main.2209ba76.js.map",
+    "main.e6aa9295.js.map": "/My-Portfolio/static/js/main.e6aa9295.js.map",
     "787.1f11dfe9.chunk.js.map": "/My-Portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.303eb0ae.css",
-    "static/js/main.2209ba76.js"
+    "static/js/main.e6aa9295.js"
   ]
 }
