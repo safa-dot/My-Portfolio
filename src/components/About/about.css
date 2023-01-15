@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+.about-page {
+	height: 100vh;
+}
+.about-page .text-zone h1 {
+	font-size: 53px;
+	font-weight: 650;
+	color: #794028;
+	animation: text-pop-up-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes text-pop-up-top {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		text-shadow: none;
+	}
+	100% {
+		-webkit-transform: translateY(-50px);
+		transform: translateY(-50px);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+			0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
+			0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+	}
+}
+
+.about-page .text-zone h1 .dot1 {
+	animation: load 3s infinite;
+}
+.about-page .text-zone h1 .dot2 {
+	animation: load 3s infinite;
+	animation-delay: 1s;
+}
+.about-page .text-zone h1 .dot3 {
+	animation: load 3s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes load {
+	from {
+		opacity: 0.1;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.about-page .text-zone p {
+	font-size: 20px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.about-page .text-zone p::before,
+p::after {
+	color: #794028;
+	font-size: 30px;
+	position: absolute;
+	font-weight: bold;
+	font-family: dancing script;
+	animation: appear 5s;
+}
+.about-page .text-zone p::before {
+	content: "<p>";
+	left: -30px;
+}
+.about-page .text-zone p::after {
+	content: "</p>";
+	right: 20px;
+	bottom: -10px;
+}
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/*************************** CUBE STYLING *************************/
+
+.cube-container {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	animation: zoomInDown 2s;
+}
+.cube-spiner {
+	animation: spincube 12s ease-in-out infinite;
+	transform-style: preserve-3d;
+	transform-origin: 100px 100px 0;
+	margin-left: calc(50% - 100px);
+}
+
+.cube-spiner div {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #79402870;
+	background: #79402830;
+	font-size: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 20px 0px #79402892;
+}
+
+.cube-container .cube-spiner .face1 {
+	transform: translateZ(100px);
+}
+.cube-container .cube-spiner .face2 {
+	transform: rotateY(90deg) translateZ(100px);
+}
+.cube-container .cube-spiner .face3 {
+	transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+.cube-container .cube-spiner .face4 {
+	transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+}
+.cube-container .cube-spiner .face5 {
+	transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+}
+.cube-container .cube-spiner .face6 {
+	transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes spincube {
+	from,
+	to {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	16% {
+		transform: rotateY(-90deg);
+	}
+	33% {
+		transform: rotateY(-90deg) rotateZ(90deg);
+	}
+	50% {
+		transform: rotateY(-180deg) rotateZ(90deg);
+	}
+	66% {
+		transform: rotateY(-270deg) rotateZ(90deg);
+	}
+	83% {
+		transform: rotateX(90deg);
+	}
+}
+
+@media (max-width: 576px) {
+	.about-page {
+		position: fixed;
+	}
+	.about-page .text-zone {
+		padding: 0 20px 0 100px;
+	}
+	.about-page .text-zone h1 {
+		font-size: 40px;
+		font-weight: 650;
+		margin-bottom: -30px;
+	}
+	.cube-container {
+		padding-top: 18%;
+		position: absolute;
+		top: 200px;
+		left: 35px;
+		width: 100%;
+		z-index: -1;
+		opacity: 0.6;
+	}
+}
+
+@media (min-width: 576px) {
+	.about-page .text-zone {
+		padding: 0 20px 0 100px;
+	}
+	.cube-container {
+		padding-top: 18%;
+		top: 200px;
+		left: 35px;
+		z-index: 0;
+		opacity: 0.6;
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.cube-container {
+		opacity: 1;
+		width: 100%;
+		top: 50px;
+		padding-top: 18%;
+		margin-left: 200px;
+		position: absolute;
+	}
+	.cube-spiner {
+		transform-origin:  100px 100px 0;
+		margin-left: calc(50% - 100px);
+		
+	}
+}
+@media (min-width: 1200px) {
+	.about-page .text-zone {
+		padding: 0 30px 0 70px;
+	}
+	.cube-container {
+		transform: translate(10%, -5%);
+	}
+}
